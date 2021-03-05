@@ -1,17 +1,59 @@
+/* colors for most of page */
 :root {
-    --primary-color: rgb(71, 71, 71);
+    --primary-color: rgb(11, 71, 110);
     --secondary-color: #dfc11c;
-    --tertiary-color: 
+    --tertiary-color: #f54444;
+    --fourth-color: rgb(87, 190, 221);
 }
 
-h1 {
-    background-color: var(--secondary-color);
+/*removes default browser enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color of font for entire page */
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
     color: var(--primary-color);
 }
 
+header h1 {
+    font-size: 40px;
+    background-color: var(--fourth-color);
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: underline;
+    color: var(--fourth-color);
+    font-weight: bold;
+
+}
+
+/* navigation menu */
+nav {
+    text-align: right;
+}
+
+header nav ul li {
+    margin: 0 20px;
+    display: inline;
+}
+
+/* body */
 .hero {
     text-align: right;
-    color: var(--primary-color);
+    color: var(--fourth-color);
     background-image: url(https://i0.wp.com/www.manuinfosolutions.com/wp-content/uploads/2015/09/header-background.jpg?ssl=1);
     
 }
