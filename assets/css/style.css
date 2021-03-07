@@ -65,6 +65,10 @@ header nav ul li a {
     padding: 60px 20px;
 }
 
+section p {
+    float: right;
+}
+
 /* footer */
 footer {
     background: var(--primary-color);
