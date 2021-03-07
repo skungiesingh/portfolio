@@ -30,6 +30,12 @@ header {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+    }
+}
+
 header h1 {
     font-size: 40px;
     background-color: var(--fourth-color);    
