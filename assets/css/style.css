@@ -65,15 +65,22 @@ header nav ul li a {
     font-size: 20px;
 }
 
-/* body */
+/* hero */
 .hero {
     text-align: right;
     color: var(--fourth-color);
     background-image: url(https://drncvpyikhjv3.cloudfront.net/sites/131/2016/09/21101909/blue-background-header-1.png);
-    height: 150px;
-    padding: 60px 20px;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
+.selfie {
+    width: 150px;
+    margin: auto;
+}
+
+/* body */
 section p {
     float: right;
     text-align: center;
@@ -81,7 +88,7 @@ section p {
 
 
 section img {
-    border: 4px solid var(--fourth-color);
+    border: 4px double var(--fourth-color);
 }
 
 /* about me section */
@@ -91,6 +98,7 @@ section img {
     justify-content: space-between;
     padding: 50px 0;
     width: 100%;
+    text-align: center;
 }
 .content-info h2, .work h2{
     border-right: 3px solid var(--secondary-color);
@@ -120,10 +128,11 @@ section img {
     width: 100%;
 }
 .work-pictures img {
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
-.best-work, .additional-work {
+
+.best-work {
     width: 100%;
     height: 350px;
     padding: 10px;
@@ -133,7 +142,7 @@ section img {
 }
 .work-pictures h3 {
     /* pushes element to bottom of flex item */
-    margin-top: 308px;
+    margin-top: 300px;
     width: 175px;
     text-align: left;
     position: absolute;
