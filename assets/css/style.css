@@ -170,7 +170,7 @@ section img {
 
 /* footer */
 footer {
-    background: var(--dark-blue);
+    background-color: var(--dark-blue);
     width: 100%;
     padding: 40px 35px;
     color: var(--light-blue);
