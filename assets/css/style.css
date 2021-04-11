@@ -1,9 +1,9 @@
 /* colors for most of page */
 :root {
-    --dark-blue: rgb(11, 71, 110);
+    --dark-blue: #182799;
     --yellow: #dfc11c;
     --red: #f54444;
-    --light-blue: rgb(87, 190, 221);
+    --light-blue: #57bedd;
 }
 
 
@@ -27,6 +27,7 @@ body {
 
 /* header */
 header {
+    background-image: linear-gradient(to right, #57bedd, #182799);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
