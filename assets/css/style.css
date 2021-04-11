@@ -27,7 +27,7 @@ body {
 
 /* header */
 header {
-    background-image: linear-gradient(to right, #57bedd, #182799);
+    background-image: linear-gradient(to right, var(--light-blue), var(--dark-blue));
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@ section img {
 }
 .work-pictures {
     display: flex;
-    flex:80%;
+    flex: 80%;
     flex-wrap: wrap;
     padding-left: 25px;
     padding-right: 25px;
@@ -158,7 +158,9 @@ section img {
 }
 .work-pictures h3 {
     /* pushes element to bottom of flex item */
-    margin-top: 300px;
+    margin-top: 310px;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
     width: 175px;
     text-align: left;
     position: absolute;
